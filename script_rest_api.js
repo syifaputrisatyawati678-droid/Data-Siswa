@@ -5,7 +5,7 @@ const tbody = document.getElementById("data-siswa");
 
 // contoh mapping kelas
 const classMap = {
-  "5fd01639-866b-48d0-b4a8-aefb67791964": "XI-C1"
+  "549c450a-e271-4d3f-af84-421b9b7b40b0": "XI-C2"
 };
 
 // helper kapitalisasi nama
@@ -53,4 +53,5 @@ fetch(`${SUPABASE_URL}/rest/v1/students?select=*`, {
       <td colspan="4">Data gagal dimuat</td>
     </tr>
   `;
+
 });
